@@ -17,7 +17,9 @@ npm install
 Usamos um container docker para instalar nosso banco MongoDB.
 Caso queira usar, rode o composer na pasta `./eviroment/docker-compose.yaml`
 
-Se quiser usar a sua própria instância, apenas ajustar a string de conexão em: `./src/config/db/conn.js`
+Se quiser usar a sua própria instância, apenas ajustar a string de conexão no arquivo `.env`.
+
+Por default, usamos a porta 3000, caso queira alterar, mudar no arquivo `.env`.
 
 ## ☕ Usando Music App - API
 
@@ -28,7 +30,7 @@ Em modo de desenvolvimento:
 npm run startdev
 ```
 
-Ou normal
+Ou normal:
 ```
 npm start
 ```
