@@ -1,7 +1,7 @@
 # Music App - API
 
 
->  Uma simples API REST com Node.js, Express.js e Mongodb com Mongoose. Servirá um aplicativo de musicas, usando assets locais do aplicativo.
+>  Uma simples API REST com Node.js, Express.js e Mongodb com Mongoose.
 
 ## 💻 Pré-requisitos
 
